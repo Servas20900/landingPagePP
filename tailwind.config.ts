@@ -15,9 +15,9 @@ const config: Config = {
           dark: "#1F2937",
           text: "#F9FAFB",
           muted: "#D1D5DB",
-          primary: "#8B5CF6",
-          hover: "#A78BFA",
-          active: "#6D28D9"
+          primary: "#9F1239",
+          hover: "#BE123C",
+          active: "#881337"
         }
       }
     }

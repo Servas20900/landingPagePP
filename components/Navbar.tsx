@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 
 const navItems = [
@@ -70,8 +71,16 @@ export default function Navbar() {
     <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-pp-dark/70 backdrop-blur-md">
       <nav className="mx-auto flex w-full max-w-7xl items-center px-4 py-4 sm:px-6 lg:px-8">
         <div className="w-full md:w-52">
-          <a href="#inicio" className="text-lg font-bold tracking-wide text-white">
-            PsychoParadise
+          <a href="#inicio" className="inline-flex items-center gap-2.5 text-lg font-bold tracking-wide text-white">
+            <Image
+              src="https://res.cloudinary.com/dcwxslhjf/image/upload/v1772441805/cropped_circle_image_kjnmon.png"
+              alt="Logo de PsychoParadise"
+              width={30}
+              height={30}
+              className="rounded-full"
+              priority
+            />
+            <span>PsychoParadise</span>
           </a>
         </div>
 
