@@ -24,9 +24,9 @@ export const events: EventItem[] = [
     country: "Costa Rica",
     age: "+18",
     image:
-      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772438644/west_ehvjri.jpg",
+      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772440679/west_-_Copy_t7oj9u.jpg",
     banner:
-      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772438644/west_ehvjri.jpg",
+      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772440679/west_-_Copy_t7oj9u.jpg",
     lineup: ["West"],
     ticketUrl: "https://example-ticketing.com/neon-roots",
     mapEmbedUrl:
@@ -43,9 +43,9 @@ export const events: EventItem[] = [
     country: "Costa Rica",
     age: "+18",
     image:
-      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772438647/Blaiz_Fayah_t7sf5e.jpg",
+      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772440691/Blaiz_Fayah-_g7acst.jpg",
     banner:
-      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772438647/Blaiz_Fayah_t7sf5e.jpg",
+      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772440691/Blaiz_Fayah-_g7acst.jpg",
     lineup: ["Blaiz Fayah"],
     ticketUrl: "https://example-ticketing.com/urban-crown",
     mapEmbedUrl:
@@ -62,9 +62,9 @@ export const events: EventItem[] = [
     country: "Costa Rica",
     age: "+18",
     image:
-      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772438644/Myke_Towers_fjd3qt.jpg",
+      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772440684/Myke_Towers_w7ckwi.jpg",
     banner:
-      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772438644/Myke_Towers_fjd3qt.jpg",
+      "https://res.cloudinary.com/dcwxslhjf/image/upload/v1772440684/Myke_Towers_w7ckwi.jpg",
     lineup: ["Myke Towers"],
     ticketUrl: "https://example-ticketing.com/frequency-night",
     mapEmbedUrl:

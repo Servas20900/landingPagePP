@@ -11,14 +11,14 @@ const galleryImages = [
 ];
 
 const highlightedArtists = [
-  "Marea Beat",
-  "Flow District",
-  "Nara V",
-  "Rayo 507",
-  "Luz Nativa"
+  "West",
+  "Myke Towers",
+  "Blaiz Fayah",
+  "Luar la L",
+  "Kybba"
 ];
 
-const sponsorLogos = ["Aural", "Nova Drinks", "Pulse Media", "Kinetic"];
+const sponsorLogos = ["Drip", "Golden live", "Rex", "Vuelta"];
 
 export default function HomePage() {
   return (
@@ -68,7 +68,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-3xl font-bold">Nosotros</h2>
               <p className="mt-5 text-sm leading-7 text-white/90 sm:text-base">
-                Soy una promotora enfocada en el desarrollo de eventos con identidad cultural y valor comercial.
+                Somos promotora enfocada en el desarrollo de eventos con identidad cultural y valor comercial.
                 Opero en Costa Rica y Panamá, donde conecto talento internacional y audiencias locales mediante
                 producciones de dancehall, reguetón y electrónica. Mi enfoque combina estrategia de marca,
                 experiencia del público y ejecución logística para que cada evento tenga impacto real, continuidad
@@ -80,14 +80,13 @@ export default function HomePage() {
                 <span className="rounded-full border border-white/20 px-3 py-1">Panamá</span>
                 <span className="rounded-full border border-white/20 px-3 py-1">Dancehall</span>
                 <span className="rounded-full border border-white/20 px-3 py-1">Reguetón</span>
-                <span className="rounded-full border border-white/20 px-3 py-1">Electrónica</span>
               </div>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
               <div className="rounded-xl border border-white/10 bg-black/20 p-5">
                 <p className="text-xs uppercase tracking-[0.15em] text-white/70">Eventos realizados</p>
-                <p className="mt-2 text-3xl font-bold">48+</p>
+                <p className="mt-2 text-3xl font-bold">30+</p>
               </div>
               <div className="rounded-xl border border-white/10 bg-black/20 p-5">
                 <p className="text-xs uppercase tracking-[0.15em] text-white/70">Asistentes</p>
@@ -95,7 +94,7 @@ export default function HomePage() {
               </div>
               <div className="rounded-xl border border-white/10 bg-black/20 p-5">
                 <p className="text-xs uppercase tracking-[0.15em] text-white/70">Artistas internacionales</p>
-                <p className="mt-2 text-3xl font-bold">70+</p>
+                <p className="mt-2 text-3xl font-bold">10+</p>
               </div>
             </div>
           </div>
@@ -107,7 +106,7 @@ export default function HomePage() {
               <div>
                 <h2 className="text-3xl font-bold">Eventos</h2>
                 <p className="mt-2 max-w-2xl text-sm text-white/85 sm:text-base">
-                  Muestro una vista comercial de eventos activos con acceso directo a compra y detalle de producción.
+                  Mostramos una vista comercial de eventos activos con acceso directo a compra y detalle de producción.
                 </p>
               </div>
               <a
@@ -159,8 +158,8 @@ export default function HomePage() {
             <div>
               <h2 className="text-3xl font-bold">Sponsors</h2>
               <p className="mt-3 text-sm leading-7 text-white/90 sm:text-base">
-                Abro espacios para marcas que buscan visibilidad real en audiencias activas.
-                Trabajo propuestas con integración de branding, activaciones en sitio y cobertura digital.
+                Abrimos espacios para marcas que buscan visibilidad real en audiencias activas.
+                Se trabajan propuestas con integración de branding, activaciones en sitio y cobertura digital.
               </p>
               <ul className="mt-5 space-y-2 text-sm text-white/85">
                 <li>Exposición de marca en eventos de alto tráfico.</li>
@@ -194,12 +193,12 @@ export default function HomePage() {
             <div>
               <h2 className="text-3xl font-bold">Contacto</h2>
               <p className="mt-3 text-sm text-white/85 sm:text-base">
-                Atiendo colaboraciones comerciales, booking y alianzas regionales.
+                Atención a colaboraciones comerciales, booking y alianzas regionales.
               </p>
 
               <div className="mt-6 space-y-3 text-sm text-white/90">
                 <Link
-                  href="https://wa.me/50688888888?text=Hola%2C%20quiero%20informaci%C3%B3n%20de%20eventos%20PP"
+                  href="https://wa.me/50670427423?text=Hola%2C%20quiero%20informaci%C3%B3n%20de%20eventos%20PP"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex rounded-lg border border-white/20 px-4 py-2 transition hover:bg-white/10"
@@ -207,13 +206,14 @@ export default function HomePage() {
                   WhatsApp directo
                 </Link>
                 <p>
-                  Instagram CR: <Link href="https://instagram.com" className="underline">@pp.cr</Link>
+                  Instagram CR: <Link href="https://instagram.com" className="underline">@psychoparadise.cr
+                  </Link>
                 </p>
                 <p>
-                  Instagram Panamá: <Link href="https://instagram.com" className="underline">@pp.pa</Link>
+                  Instagram Panamá: <Link href="https://instagram.com" className="underline">@psychoparadise.pa</Link>
                 </p>
                 <p>
-                  Correo oficial: <a href="mailto:contacto@pppromotora.com" className="underline">contacto@pppromotora.com</a>
+                  Correo oficial: <a href="mailto:contacto@psychoparadise.cr" className="underline">contacto@psychoparadise.cr</a>
                 </p>
               </div>
             </div>
@@ -246,8 +246,8 @@ export default function HomePage() {
             <ul className="mt-3 space-y-2 text-white/75">
               <li>Costa Rica | Panamá</li>
               <li>
-                <a href="mailto:contacto@pppromotora.com" className="transition hover:text-white">
-                  contacto@pppromotora.com
+                <a href="mailto:contacto@psychoparadise.cr" className="transition hover:text-white">
+                  contacto@psychoparadise.cr
                 </a>
               </li>
               <li>© 2026 PsychoParadise. Todos los derechos reservados.</li>
