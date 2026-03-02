@@ -17,12 +17,12 @@ export function generateMetadata({ params }: EventDetailProps) {
 
     if (!event) {
       return {
-        title: "Evento no encontrado | PP Promotora"
+        title: "Evento no encontrado | PsychoParadise"
       };
     }
 
     return {
-      title: `${event.name} | PP Promotora`,
+      title: `${event.name} | PsychoParadise`,
       description: `${event.name} en ${event.location} el ${event.date}. Compra tus entradas y revisa detalles oficiales.`
     };
   });

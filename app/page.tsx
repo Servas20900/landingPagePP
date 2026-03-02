@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import ContactForm from "@/components/ContactForm";
 import EventCard from "@/components/EventCard";
 import Navbar from "@/components/Navbar";
 import { featuredActiveEvents } from "@/lib/events";
@@ -40,7 +39,7 @@ export default function HomePage() {
           </div>
 
           <div className="relative mx-auto w-full max-w-7xl">
-            <p className="text-xs uppercase tracking-[0.25em] text-white/80">PP Promotora</p>
+            <p className="text-xs uppercase tracking-[0.25em] text-white/80">PsychoParadise</p>
             <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
               Produzco experiencias de alto impacto en Costa Rica y Panamá.
             </h1>
@@ -190,7 +189,8 @@ export default function HomePage() {
         </section>
 
         <section id="contacto" className="bg-pp-base px-4 py-20 sm:px-6 lg:px-8">
-          <div className="mx-auto grid w-full max-w-7xl gap-8 lg:grid-cols-2">
+          <div className="mx-auto w-full max-w-4xl">
+            <div className="rounded-2xl border border-white/10 bg-pp-dark/70 p-8">
             <div>
               <h2 className="text-3xl font-bold">Contacto</h2>
               <p className="mt-3 text-sm text-white/85 sm:text-base">
@@ -217,19 +217,42 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-
-            <div className="rounded-2xl border border-white/10 bg-pp-dark/70 p-6">
-              <ContactForm />
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="border-t border-white/10 bg-pp-dark px-4 py-8 sm:px-6 lg:px-8">
-        <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 text-sm text-white/80 sm:flex-row sm:items-center sm:justify-between">
-          <p className="font-semibold text-white">PP Promotora</p>
-          <p>© 2026 Todos los derechos reservados.</p>
-          <p>Políticas básicas | Costa Rica | Panamá</p>
+      <footer className="border-t border-white/10 bg-pp-dark px-4 py-10 sm:px-6 lg:px-8">
+        <div className="mx-auto grid w-full max-w-7xl gap-8 text-sm text-white/80 md:grid-cols-3">
+          <div>
+            <p className="text-base font-semibold text-white">PsychoParadise</p>
+            <p className="mt-2 leading-6 text-white/75">
+              Producción y promoción de experiencias en vivo en Costa Rica y Panamá.
+            </p>
+          </div>
+
+          <div>
+            <p className="text-sm font-semibold text-white">Navegación</p>
+            <ul className="mt-3 space-y-2">
+              <li><a href="#inicio" className="transition hover:text-white">Inicio</a></li>
+              <li><a href="#eventos" className="transition hover:text-white">Eventos</a></li>
+              <li><a href="#sponsors" className="transition hover:text-white">Sponsors</a></li>
+              <li><a href="#contacto" className="transition hover:text-white">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-sm font-semibold text-white">Información</p>
+            <ul className="mt-3 space-y-2 text-white/75">
+              <li>Costa Rica | Panamá</li>
+              <li>
+                <a href="mailto:contacto@pppromotora.com" className="transition hover:text-white">
+                  contacto@pppromotora.com
+                </a>
+              </li>
+              <li>© 2026 PsychoParadise. Todos los derechos reservados.</li>
+            </ul>
+          </div>
         </div>
       </footer>
     </>

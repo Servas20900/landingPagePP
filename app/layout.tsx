@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PP Promotora | Eventos y Experiencias",
+  title: "PsychoParadise | Eventos y Experiencias",
   description:
-    "Landing comercial de PP Promotora para eventos en Costa Rica y Panamá, con acceso a compra de entradas y contacto comercial.",
+    "Landing comercial de PsychoParadise para eventos en Costa Rica y Panamá, con acceso a compra de entradas y contacto comercial.",
   keywords: [
     "eventos",
     "promotora",
