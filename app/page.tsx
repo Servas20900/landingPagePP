@@ -41,10 +41,10 @@ export default function HomePage() {
           <div className="relative mx-auto w-full max-w-7xl">
             <p className="text-xs uppercase tracking-[0.25em] text-white/80">PsychoParadise</p>
             <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-              Produzco experiencias de alto impacto en Costa Rica y Panamá.
+              Vive experiencias de alto impacto en Costa Rica y Panamá.
             </h1>
             <p className="mt-5 max-w-2xl text-sm text-white/85 sm:text-base">
-              Diseño eventos con enfoque comercial, curaduría artística y ejecución técnica para conectar marcas, artistas y audiencia real.
+              Diseñamos eventos con enfoque comercial, curaduría artística y ejecución técnica para conectar marcas, artistas y audiencia real.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
