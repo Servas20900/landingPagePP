@@ -7,6 +7,8 @@ type EventDetailProps = {
   params: Promise<{ slug: string }>;
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return events.map((event) => ({ slug: event.slug }));
 }
