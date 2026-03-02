@@ -10,11 +10,14 @@ const config: Config = {
     extend: {
       colors: {
         pp: {
-          base: "#2D0101",
-          alt: "#540000",
-          dark: "#1A0000",
-          primary: "#730202",
-          hover: "#590202"
+          base: "#0B0F1A",
+          alt: "#111827",
+          dark: "#1F2937",
+          text: "#F9FAFB",
+          muted: "#D1D5DB",
+          primary: "#8B5CF6",
+          hover: "#A78BFA",
+          active: "#6D28D9"
         }
       }
     }

@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="scroll-smooth bg-pp-base">
-      <body className="bg-pp-base text-white antialiased">{children}</body>
+      <body className="bg-pp-base text-pp-text antialiased">{children}</body>
     </html>
   );
 }
